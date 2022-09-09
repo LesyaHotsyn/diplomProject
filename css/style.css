@@ -1,0 +1,294 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 34px auto;
+}
+
+.logo{
+    font-family: 'Pacifico';
+    font-size: 33px;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 13px 0 0 135px;
+}
+
+.nav_ul{
+    text-align: center;
+}
+
+.nav_li{
+    display: inline-block;
+}
+
+.nav_li:not(:last-of-type){
+    margin-right: 40px;
+}
+
+.nav_link{
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #6C6C6C;
+    text-decoration: none;
+}
+
+.nav_link-last{
+    font-family: 'Libre Franklin';
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.flex_around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pompeoPottery{
+    background: url(/img/pottery/background.png);
+    max-width: 1440px;
+}
+
+.pompeoPottery_div{
+    max-width: 512px;
+    margin: 192px 0 0 144px;
+}
+
+.pompeoPottery_title{
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.pompeoPottery_pretitle{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #D77474;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.pompeoPottery_text{
+    font-family: 'Libre Franklin';
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin-top: 14px;
+    margin-bottom: 51px;
+}
+
+.pompeoPottery_i{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 68px;
+    text-align: center;
+    color: #AC1313;
+    /* bottom: 100px; */
+    /* position: absolute; */
+    display: inline-block;
+}
+
+.pompeoPottery_img{
+    margin: 126px 0 135px;
+}
+
+.button{
+    height: 62px;
+    Width: 201px;
+    background: #AC1313;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.productCategories{
+    position: relative;
+    text-align: center;
+    padding: 120px 0 150px;
+}
+
+.productCategories_div{
+    margin: 0 auto;
+}
+
+.productCategories_items{
+    height: 240px;
+    width: 240px;
+    background-color: #E4B366;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    margin: 63px auto 90px;
+}
+
+.two{
+    background-color: #F05B10;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+}
+
+.three{
+    background-color: #A21010;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+}
+
+.productCategories_div{
+    text-align: left;
+    max-width: 501px;
+}
+
+.productCategories_title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+}
+
+.productCategories_text{
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+.productCategories-vertical{
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #DBDBDB;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -7%;
+    bottom: 55%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 85px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.grid_items{
+    position: relative;
+    align-items: center;
+}
+
+.grid_items-background{
+    position: absolute;
+    width: 500px;
+    height: 220px;
+    background-color: #F5F5F5;
+    /* justify-self: center; */
+}
+
+.grid_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.grid_text{
+    width: 388px;
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.grid_link{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.collection{
+    text-align: center;
+    margin: 120px auto;
+}
+
+.collectionGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+}
+
+.collectionGrid_items_title{
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+.collectionGrid_items_price{
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.pompeo{
+    background: url(/img/pageBackground.png);
+    padding: 120px 0;
+    margin-bottom: 120px;
+}
+
+.pompeo_div{
+    margin-left: 144px;
+}
+
+.pompeo_title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.pompeo_text{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
