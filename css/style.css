@@ -2,6 +2,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
 }
 .container{
@@ -22,6 +23,7 @@ body{
     font-size: 33px;
     line-height: 40px;
     text-decoration: none;
+    color: #000000;
 }
 
 .nav_ul{
@@ -76,7 +78,8 @@ body{
 .pompeoPottery{
     position: relative;
     background: url(../img/pottery/background.png);
-    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pompeoPottery_div{
@@ -155,33 +158,80 @@ body{
     padding: 120px 0 150px;
 }
 
-
-
 .productCategories_items{
     position: relative;
     height: 240px;
     width: 240px;
-    background-color: #E4B366;
-    border: 30px solid rgba(0, 0, 0, 0.05);
     border-radius: 50%;
     margin: 63px auto 90px;
 }
 
-.two{
+.productCategories_items::before{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.productCategories_items::after{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.productCategories_items--one{
+    background-color: #E4B366;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+}
+
+.productCategories_items--one::after{
+    content: 'Vases';
+    top: 65%;
+}
+
+.productCategories_items--one::before{
+    content: url('../img/product/vases.svg');
+    top: 45%;
+}
+
+.productCategories_items--two{
     background-color: #F05B10;
     border: 30px solid rgba(0, 0, 0, 0.05);
 }
 
-.three{
+.productCategories_items--two::after{
+    content: 'Mugs';
+    top: 65%;
+}
+
+.productCategories_items--two::before{
+    content: url('../img/product/mugs.svg');
+    top: 45%;
+}
+
+.productCategories_items--three{
     background-color: #A21010;
     border: 30px solid rgba(0, 0, 0, 0.05);
+}
+
+.productCategories_items--three::after{
+    content: 'Plates';
+    top: 65%;
+}
+
+.productCategories_items--three::before{
+    content: url('../img/product/plates.svg');
+    top: 45%;
 }
 
 .productCategories_items-img{
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%; 
 }
 
 .productCategories_div{
@@ -241,6 +291,11 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.grid_items-img{
+    /* position: absolute; */
+    z-index: -1;
 }
 
 .grid_title{
@@ -313,6 +368,8 @@ body{
     background: url(../img/pageBackground.png);
     padding: 120px 0;
     margin-bottom: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pompeo_div{

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Libre+Franklin:wght@400;700&family=Pacifico&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Libre+Franklin:wght@400;700&family=Pacifico&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Pompeo</title>
@@ -32,11 +32,12 @@
             </ul>
         </nav>
     </header>
-    <main class="container">
-        <section class="pompeoPottery flex container">
-            <div class="pompeoPottery_div">
+    <main class="">
+        <section class="pompeoPottery flex_around">
+            <div class="pompeoPottery_div container">
                 <p class="pompeoPottery_pretitle">POMPEO POTTERY</p>
                 <h3 class="pompeoPottery_title">Unique Porcelain</h3>
+                <p class="pompeoPottery_i">&</p>
                 <h3 class="pompeoPottery_title">Stone Collection</h3>
                 <p class="pompeoPottery_text">Unique & modern pottery made by our master in porcelain & stones</p>
                 <button class="button">Shop Collection</button>
@@ -54,22 +55,16 @@
             </div>
             <div class="productCategories-vertical">Hand Craft Pottery</div>
             <div class="flex_around">
-                <div class="productCategories_items">
+                <div class="productCategories_items productCategories_items--one">
                     <div class="productCategories_items-img">
-                        <img src="./img/product/vases.svg" alt="Vases">
-                        <p >Vases</p>
                     </div>
                 </div>
-                <div class="productCategories_items two">
+                <div class="productCategories_items productCategories_items--two">
                     <div class="productCategories_items-img">
-                        <img src="./img/product/mugs.svg" alt="Mugs">
-                        <p>Mugs</p>
                     </div>
                 </div>
-                <div class="productCategories_items three">
+                <div class="productCategories_items productCategories_items--three">
                     <div class="productCategories_items-img"></div>
-                        <img src="./img/product/plates.svg" alt="Plates">
-                        <p>Plates</p>
                     </div>
                 </div>
             </div>
@@ -90,7 +85,7 @@
             <div class="grid">
                 <div class="grid_items ">
                     <div class="grid_items-background"></div>
-                    <img src="./img/jug/jug_ceramic.png" alt="GoldBlackPottery">
+                    <img class="grid_items-img" src="./img/jug/jug_ceramic.png" alt="GoldBlackPottery">
                 </div>
                 <div class="grid_items">
                     <h6 class="grid_title">Gold & Black Pottery</h6>
@@ -174,7 +169,7 @@
             </form>
         </section>
     </main>
-    <footer class="footer container">
+    <footer class="footer ">
         <p class="logo">Pompeo</p>
         <p class="footer_text">I have always striven to fix beauty in wood, stone,</p>
         <p class="footer_text">glass or pottery, that has been my creed.</p>
