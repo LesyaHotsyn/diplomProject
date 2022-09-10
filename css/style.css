@@ -61,7 +61,7 @@ body{
 }
 
 .pompeoPottery{
-    background: url(/img/pottery/background.png);
+    background: url(../img/pottery/background.png);
     max-width: 1440px;
 }
 
@@ -268,7 +268,7 @@ body{
 }
 
 .pompeo{
-    background: url(/img/pageBackground.png);
+    background: url(../img/pageBackground.png);
     padding: 120px 0;
     margin-bottom: 120px;
 }
@@ -292,3 +292,27 @@ body{
     line-height: 24px;
 }
 
+.form{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer{
+    margin: 107px auto 30px;
+    text-align: center;
+}
+
+.footer_text{
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+.footer_title{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
