@@ -120,7 +120,6 @@ body{
     line-height: 68px;
     text-align: center;
     color: #AC1313;
-    /* bottom: 100px; */
     /* position: absolute; */
     display: inline-block;
 }
@@ -130,6 +129,10 @@ body{
     margin: 126px 0 135px;
     /* bottom: 0;
     right: 0; */
+}
+
+.div{
+    position: relative;
 }
 
 .button{
@@ -152,9 +155,7 @@ body{
     padding: 120px 0 150px;
 }
 
-.productCategories_div{
-    margin: 0 auto;
-}
+
 
 .productCategories_items{
     position: relative;
@@ -184,7 +185,7 @@ body{
 }
 
 .productCategories_div{
-    text-align: left;
+    text-align: center;
     max-width: 501px;
 }
 
@@ -389,7 +390,8 @@ body{
 .footer_bottom{
     margin: 10px auto;
     border-top: 1px solid #6C6C6C;
-    
+    background: rgba(219, 219, 219, 0.3);
+    padding-bottom: 20px;
 }
 
 .footer_bottom_text{
