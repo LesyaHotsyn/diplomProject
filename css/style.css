@@ -316,3 +316,21 @@ body{
     line-height: 23px;
     letter-spacing: 1px;
 }
+
+.footer_bottom{
+    margin: 10px auto;
+}
+
+.footer_bottom_text{
+    display: inline-block;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+   text-align: right;
+}
+
+.footer_bottom_text-gray{
+    color: #6C6C6C;
+}
