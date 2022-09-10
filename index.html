@@ -13,7 +13,7 @@
 </head>
 <body>
     <header class="header flex container">
-        <a class="logo" href="#" target="_blank">Pompeo</a>
+        <a class="logo header_logo" href="#" target="_blank">Pompeo</a>
         <nav class="nav">
             <ul class="nav_ul">
                 <li class="nav_li">
@@ -55,16 +55,22 @@
             <div class="productCategories-vertical">Hand Craft Pottery</div>
             <div class="flex_around">
                 <div class="productCategories_items">
-                    <img src="./img/product/vases.svg" alt="Vases">
-                    <p>Vases</p>
+                    <div class="productCategories_items-img">
+                        <img src="./img/product/vases.svg" alt="Vases">
+                        <p >Vases</p>
+                    </div>
                 </div>
                 <div class="productCategories_items two">
-                    <img src="./img/product/mugs.svg" alt="Mugs">
-                    <p>Mugs</p>
+                    <div class="productCategories_items-img">
+                        <img src="./img/product/mugs.svg" alt="Mugs">
+                        <p>Mugs</p>
+                    </div>
                 </div>
                 <div class="productCategories_items three">
-                    <img src="./img/product/plates.svg" alt="Plates">
-                    <p>Plates</p>
+                    <div class="productCategories_items-img"></div>
+                        <img src="./img/product/plates.svg" alt="Plates">
+                        <p>Plates</p>
+                    </div>
                 </div>
             </div>
             <div class="flex">
@@ -82,7 +88,7 @@
         </section>
         <section > 
             <div class="grid">
-                <div class="grid_items">
+                <div class="grid_items ">
                     <div class="grid_items-background"></div>
                     <img src="./img/jug/jug_ceramic.png" alt="GoldBlackPottery">
                 </div>
@@ -157,14 +163,15 @@
                 <p class="pompeoPottery_i">&</p>
                 <p class="pompeoPottery_title">New updates</p>
             </div>
-            <div>
-                <input type="text">
-                <button>SUBSCRIBE</button>
-            </div>
-            <div>
-                <input type="checkbox" name="" id="">
-                <p>Sign up for our newsletter</p>
-            </div>
+            <form action="">
+                <input сlass="form_email" type="email" placeholder="Enter your email">
+                <button class="form_button">SUBSCRIBE</button>
+                <div class="form_label">
+                    <label for="checkbox">
+                    <input type="checkbox" name="" id="checkbox"> Sign up for our newsletter
+                </label>
+                </div>
+            </form>
         </section>
     </main>
     <footer class="footer container">
