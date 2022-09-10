@@ -270,6 +270,14 @@ body{
     margin: 120px auto;
 }
 
+.collection_title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 60px;
+}
+
 .collectionGrid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -279,6 +287,11 @@ body{
     align-items: center;
     justify-content: center;
     text-align: start;
+}
+
+.collectionGrid_items{
+    border-bottom: 1px solid #DBDBDB;
+    margin-bottom: 20px;
 }
 
 .collectionGrid_items_title{
